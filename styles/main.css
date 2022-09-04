@@ -9,8 +9,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
- 
+  margin-left: -50px;
+ width: 120px;
+ justify-content: space-between;
 }
 
 .small{
@@ -19,7 +20,7 @@ body{
   justify-items: center;
   align-items: center;
   color: white;
-  
+  font-family: cursive;
 }
 
 .change {
@@ -28,6 +29,8 @@ body{
   font-size: 17px;
   display: flex;
   text-decoration: none;
+  justify-content: right;
+  
 }
 
 
