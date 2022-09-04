@@ -1,6 +1,7 @@
 body{
   margin: 0;
-  
+  background-color: rgba(250 248 246);
+  font-family: cursive;
 }
 
 .left-part {
@@ -79,12 +80,14 @@ img {
   font-family: cursive;
 }
 
-.navbar ul li a:hover{
-  color: red;
+.navbar a:hover{
+  color: black;
 }
-
-
 
 .navbar.active ul li a{
   color: white;
+}
+
+.navbar.active ul li a:hover{
+  color: black;
 }
