@@ -1,23 +1,42 @@
 body{
   margin: 0;
-  height: vh;
+  
 }
 
-.line{
+.left-part {
   display: flex;
   flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+ 
+}
+
+.small{
+  font-size: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  
+}
+
+.change {
+  color: white;
+  font-family: cursive;
+  font-size: 17px;
+  display: flex;
+  text-decoration: none;
 }
 
 
-
-
 .container{
+  padding-top: 20%;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
+  
   
 }
 img {
@@ -26,14 +45,18 @@ img {
   
 }
 
-h1{ 
-  color: white;
+.center  {
+  justify-content: center ;
+  display: flex;
+  color: gray;
 }
+
+
 
 .navbar{
   display: flex;
   position: fixed;
-  background-color: white;
+  background-color: rgb(133, 32, 32);
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +66,7 @@ h1{
 
 .navbar ul{
   display: flex;
-  
+  list-style-type: none;
 }
 
 .navbar ul li a{
@@ -57,9 +80,7 @@ h1{
   color: red;
 }
 
-.navbar.active{
-  background-color: rgba(117, 6, 6, 0.815);
-}
+
 
 .navbar.active ul li a{
   color: white;
