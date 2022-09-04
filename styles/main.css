@@ -1,7 +1,11 @@
 body{
+  width: 100vw;
+  height: 100vh;
   margin: 0;
-  background-color: rgba(250 248 246);
+  background-image: url("https://wallpaperaccess.com/full/3205414.jpg");
   font-family: cursive;
+  background-size: cover;
+  color: rgba(202, 202, 0, 0.493);
 }
 
 .left-part {
@@ -37,7 +41,7 @@ body{
 
 .container{
 
-  padding-top: 20%;
+  padding-top: 100px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -51,9 +55,7 @@ img {
 }
 
 .center  {
-  justify-content: center ;
-  display: flex;
-  color: gray;
+  color: darkgrey;
 }
 
 
