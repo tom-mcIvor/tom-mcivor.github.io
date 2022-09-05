@@ -1,10 +1,16 @@
 body{
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+background-image: cover;
   margin: 0;
-  background-image: url("https://wallpaperaccess.com/full/3205414.jpg");
+  width: 9000px;
+  height: 2700px;
+  background-image:url("https://wallpaperaccess.com/full/3205414.jpg"), url("vincent-ledvina-9HBFnpoB678-unsplash.jpg");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  background-image: cover;
   font-family: cursive;
-  background-size: cover;
+  text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
+ 
   color: rgba(202, 202, 0, 0.493);
 }
 
@@ -112,18 +118,32 @@ img {
   }
 }
 
-
-@media screen and (max-width: 700px) {
+.yellow {
+  color: rgba(202, 202, 0, 0.726);
+}
+@media screen and (max-width: 1000px) {
   body {
-    width: 100vw;
-    height: 100vh;
+    color: white;
     margin: 0;
-    background-image: url("https://wallpaperaccess.com/full/3205414.jpg");
-    font-family: cursive;
-    background-size: cover;
-    color: rgba(202, 202, 0, 0.493);
- background-image: url("https://live-production.wcms.abc-cdn.net.au/69c0db8671502e7963af2f375a57486f?impolicy=wcms_crop_resize&cropH=2193&cropW=3899&xPos=0&yPos=1178&width=862&height=485"), url("https://www.slashgear.com/img/gallery/this-is-what-happens-when-a-star-goes-supernova/l-intro-1651100138.jpg");
+    width: 900px;
+    height: 2200px;
+    background-image:url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1211&q=80"), url("https://wallpaperaccess.com/full/3205414.jpg");
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    background-image: cover;
+
   }
+}
+
+@media screen and (max-width: 1000px) {
+  #yellow {
+    color: white;
+  }
+}
+
+.yellow {
+  color: rgba(202, 202, 0, 0.726);
+  text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
 }
 
 @media screen and (max-width: 500px) {
@@ -150,3 +170,36 @@ img {
   }
 }
 
+
+
+
+@media screen and (max-width: 300px) {
+  .left-part {
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .left-part {
+    margin-left: -350px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .left-part {
+    margin-left: -500px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .navbar.active ul li a{
+    margin-right: 50px;
+}
+}
+@media screen and (max-width: 400px) {
+  .small{
+    font-size: 5px;
+}
+}
+@media screen and (max-width: 400px) {
+  .change{
+    font-size: 15px;
+}
+}
