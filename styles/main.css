@@ -1,17 +1,19 @@
 body{
   display: flex;
 background-image: cover;
-  margin: 0;
-  width: 9000px;
+
+  width: 900px;
   height: 2700px;
   background-image:url("https://wallpaperaccess.com/full/3205414.jpg"), url("vincent-ledvina-9HBFnpoB678-unsplash.jpg");
   background-position: center top, center bottom;
   background-repeat: no-repeat;
+  background-size: cover;
   background-image: cover;
   font-family: cursive;
   text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
- 
+ background-image: cover;
   color: rgba(202, 202, 0, 0.493);
+  
 }
 
 .left-part {
