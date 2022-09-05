@@ -69,7 +69,7 @@ img {
   align-items: center;
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   transition: background-color 0.4s;
-  height: 60px;
+  height: 80px;
   
 }
 
@@ -104,3 +104,49 @@ img {
 .left-part a:active{
   font-size: 150%;
 }
+
+
+@media screen and (max-width: 700px) {
+  .navbar {
+ height: 60px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/3205414.jpg");
+    font-family: cursive;
+    background-size: cover;
+    color: rgba(202, 202, 0, 0.493);
+ background-image: url("https://live-production.wcms.abc-cdn.net.au/69c0db8671502e7963af2f375a57486f?impolicy=wcms_crop_resize&cropH=2193&cropW=3899&xPos=0&yPos=1178&width=862&height=485"), url("https://www.slashgear.com/img/gallery/this-is-what-happens-when-a-star-goes-supernova/l-intro-1651100138.jpg");
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar{
+    font-size: 10px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar{
+    font-size: 7pxpx;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  img{
+    height: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .small {
+    height: 0px;
+  }
+}
+
