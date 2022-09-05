@@ -7,7 +7,6 @@ body{
   font-family: cursive;
   text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
   color: rgba(202, 202, 0, 0.493);
-  
 }
 
 .left-part {
@@ -37,9 +36,7 @@ body{
   display: flex;
   text-decoration: none;
   justify-content: right;
-  
 }
-
 
 .container{
 
@@ -48,19 +45,15 @@ body{
   display: flex;
   flex-direction: column;
   
-  
 }
 img {
   height: 30px;
   border-radius: 50%;
-  
 }
 
 .center  {
   color: darkgrey;
 }
-
-
 
 .navbar{
   display: flex;
@@ -72,7 +65,6 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   transition: background-color 0.4s;
   height: 80px;
-  
 }
 
 .navbar ul{
@@ -107,7 +99,6 @@ img {
   font-size: 150%;
 }
 
-
 @media screen and (max-width: 700px) {
   .navbar {
  height: 60px;
@@ -117,21 +108,18 @@ img {
 .yellow {
   color: rgba(202, 202, 0, 0.726);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   body {
     color: white;
     margin: 0;
-    width: 900px;
-    height: 2200px;
     background-image:url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1211&q=80"), url("https://wallpaperaccess.com/full/3205414.jpg");
     background-position: center top, center bottom;
     background-repeat: no-repeat;
     background-image: cover;
-
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   #yellow {
     color: white;
   }
@@ -165,9 +153,6 @@ img {
     height: 0px;
   }
 }
-
-
-
 
 @media screen and (max-width: 300px) {
   .left-part {
