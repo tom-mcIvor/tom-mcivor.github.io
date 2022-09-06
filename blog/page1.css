@@ -213,9 +213,19 @@ body{
 
 }
 
+
+
+
 .navbar .this-one .black-2{
   color: black;
 }
 .navbar .this-one .black-3{
   color: black;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1100px) {
+  
+  .left-part {
+    margin-left: -130px;
+  }
 }
