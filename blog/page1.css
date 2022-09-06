@@ -113,13 +113,12 @@ body{
 }
 @media screen and (max-width: 1500px) {
   body {
+    width: 100%;
     color: white;
     margin: 0;
     background-image:url("https://wallpaperaccess.com/full/3205414.jpg");
-    background-position: center top, center bottom;
     background-repeat: no-repeat;
-    background-image: cover;
-    background-size: cover;
+    background-position: cover;
   }
 
   a{

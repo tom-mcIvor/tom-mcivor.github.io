@@ -1,9 +1,14 @@
+
+
+
 body{
   margin: 0;
   display: flex;
-  background-image: cover;
+  width: 100%;
   background-image:url("https://wallpaperaccess.com/full/3205414.jpg");
   background-size: cover;
+  
+  background-repeat: no-repeat;
   font-family: cursive;
   text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
   color: rgba(202, 202, 0, 0.493);
@@ -110,12 +115,13 @@ img {
 }
 @media screen and (max-width: 1500px) {
   body {
+    width: 100vw;
     color: white;
     margin: 0;
     background-image:url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1211&q=80"), url("https://wallpaperaccess.com/full/3205414.jpg");
-    background-position: center top, center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-image: cover;
+    background-size: cover;
   }
 }
 
