@@ -1,13 +1,11 @@
 
-
-
 body{
   margin: 0;
   display: flex;
   width: 100%;
-  background-image:url("https://wallpaperaccess.com/full/3205414.jpg");
-  background-size: cover;
-  
+  height: 1700px;
+  background: url("https://wallpaperaccess.com/full/3205414.jpg");
+  background-size: cover;  
   background-repeat: no-repeat;
   font-family: cursive;
   text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
@@ -41,6 +39,10 @@ body{
   display: flex;
   text-decoration: none;
   justify-content: right;
+}
+#change-1 {
+  color: black;
+ 
 }
 
 .container{
@@ -178,6 +180,15 @@ img {
 @media screen and (min-width: 1100px) {
   .navbar.active ul li a{
     margin-right: 50px;
+    font-size: 30px;
+}
+
+.left-part .change{
+  font-size: 40px;
+}
+
+.left-part {
+  width: 200px;
 }
 }
 @media screen and (max-width: 400px) {
@@ -191,7 +202,6 @@ img {
 }
 }
 
-
 .container2 {
   width: 1vw;
   height: 100vh;
@@ -201,3 +211,52 @@ img {
 .container {
   margin: 15px;
 }
+
+
+.container3 {
+  height: 2500px;
+  
+  background-image: center;
+  width: 100%;
+  background: url("https://live-production.wcms.abc-cdn.net.au/69c0db8671502e7963af2f375a57486f?impolicy=wcms_crop_resize&cropH=2193&cropW=3899&xPos=0&yPos=1178&width=862&height=485%22");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.container4 {
+  height: 2500px;
+  
+  background-image: center;
+  width: 100%;
+  background: url("https://media.npr.org/assets/img/2022/07/12/southern-ring-nebula-2-_custom-60c7d16d9c36f085646be2dad4585892c783952d-s1300-c85.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container4 p{
+  font-size: 50px;
+  margin: 20px;
+}
+
+.container4 h1{
+  margin: 100px;
+  font-size: 70px;
+}
+
+.container4 *{
+  color: blueviolet;
+}
+
+.navbar .this-one #black-1{
+  color: black;
+}
+.navbar .this-one .change-3{
+  color: black;
+}
+
+
+
+
+
+
