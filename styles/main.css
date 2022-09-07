@@ -384,13 +384,21 @@ button {
   }
 }
 
+span{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
 
 
 button {
-  position: absolute;
-  left: 50%;
-  top: 120%;
-  
+
+ 
+
+
+
+
   height: 4em;
   width: 7em;
   
@@ -408,3 +416,12 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
   }
+
+  #date{
+    left: 90%;
+position: absolute;
+  
+  }
+
+
+
