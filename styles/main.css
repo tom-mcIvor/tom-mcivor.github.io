@@ -324,3 +324,12 @@ img {
   }
 }
 
+.container ul li a{
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.container ul li a :active{
+  color: blanchedalmond;
+  text-decoration: none;
+}
