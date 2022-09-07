@@ -256,6 +256,20 @@ img {
   color: blueviolet;
 }
 
+.container4 p{
+  
+  margin: 100px;
+}
+
+.container4 h2{
+  margin: 60px;
+}
+.container4 h3{
+  margin: 60px;
+}
+
+
+
 .navbar .this-one #black-1{
   color: black;
 }
@@ -325,7 +339,7 @@ img {
 }
 
 .container ul li a{
-  color: blanchedalmond;
+  color: rgb(255, 236, 131);
   text-decoration: none;
 }
 
@@ -333,3 +347,64 @@ img {
   color: blanchedalmond;
   text-decoration: none;
 }
+
+
+footer {
+  font-size: smaller;
+}
+
+
+/* Animation property */
+button {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
+button {
+  position: absolute;
+  left: 50%;
+  top: 120%;
+  
+  height: 4em;
+  width: 7em;
+  
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  
+  border-radius: 0 0 0.2em 0.2em;
+  color: rgb(255, 236, 131);
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  }
