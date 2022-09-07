@@ -393,15 +393,8 @@ span{
 
 
 button {
-
- 
-
-
-
-
   height: 4em;
   width: 7em;
-  
   background-color: rgba(0, 0, 0, 0);
   border: none;
   
@@ -423,5 +416,28 @@ position: absolute;
   
   }
 
+  body .container3 #white{
 
+    margin-top: 150px;
+  color: white;
+  margin-bottom: -150px;
+  
+  }
 
+  @media screen and (max-width: 500px) {
+    body .container3 span div p{
+      margin: 10px;
+     
+    }
+  }
+  @media screen and (max-width: 400px) {
+    body .container3 span div p{
+      margin: 8px;
+     
+    }
+  }
+  @media screen and (max-width: 300px) {
+    body .container3 span div p{
+      margin: 0px;
+    }
+  }
