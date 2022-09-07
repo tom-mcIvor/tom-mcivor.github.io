@@ -1,3 +1,11 @@
+*{
+  font-family: Cambria;
+}
+
+
+
+
+
 
 body{
   margin: 0;
@@ -303,22 +311,16 @@ img {
 }
 @media screen and (max-width: 350px) {
   .container3 p{
-    font-size: 6px;
+    font-size: 10px;
   }
 }
-@media screen and (max-width: 300px) {
-  .container3 p{
-    font-size: 3px;
-  }
-}
+
 
  
 @media screen and (max-width: 1600px) and (min-width: 1100px) {
-
+  
   .left-part {
     margin-left: -130px;
   }
-
 }
-
 
