@@ -411,8 +411,11 @@ a, a:hover, a:focus, a:active {
   }
 
   #date{
-    left: 90%;
-position: absolute;
+    display: flex;
+    margin-top: 0%;
+    justify-content: right;
+    margin-right: 6%;
+
   
   }
 
@@ -441,12 +444,13 @@ position: absolute;
       margin: 0px;
     }
   }
-<<<<<<< HEAD
 
-
-  .dropdown {
+.dropdown {
+  top: 10%;
     position: absolute;
     right: 20%;
+    transform: translate(50%, 50%);
+    border-radius: 5%;
 }
 
 .dropbtn {
@@ -456,6 +460,7 @@ position: absolute;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 15%;
 }
 
 .dropdown-content {
@@ -483,6 +488,45 @@ position: absolute;
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+    color: black;
 }
-=======
->>>>>>> 529e25d105a3510ce475c4f7f8cea2c70c43b972
+
+
+body .container .box{
+  top: 40%;
+  right: 20%;
+position: absolute;
+  font-family: cursive !important;
+  transform: translate(50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color:  #4CAF50;
+  border: none;
+  color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15%;
+    
+}
+
+body .container .box:hover {
+  background-color:#3e8e41;
+  color: black;
+  
+}
+
+body .container img {
+  position: absolute;
+  top: 47%;
+  right: 16%;
+  transform: translate(50%, 50%);
+  opacity: .7;
+}
+
+
+
