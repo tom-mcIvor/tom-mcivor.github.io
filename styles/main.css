@@ -451,6 +451,7 @@ a, a:hover, a:focus, a:active {
     right: 20%;
     transform: translate(50%, 50%);
     border-radius: 5%;
+    opacity: .7;
 }
 
 .dropbtn {
@@ -511,6 +512,7 @@ position: absolute;
     cursor: pointer;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 15%;
+    opacity: .7;
     
 }
 
@@ -525,7 +527,7 @@ body .container img {
   top: 47%;
   right: 16%;
   transform: translate(50%, 50%);
-  opacity: .7;
+  opacity: .5;
 }
 
 #train {
@@ -545,14 +547,15 @@ body .container img {
 }
 
 #train3 {
-position: absolute;
-right: 5%;
+  position: absolute;
+  right: 5%;
   display: flex;
   height: 100%;
   width: 60px;
-justify-content: center;
-color: white;
-border-radius: 50%;
-z-index: 1;
-opacity: 1;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 1;
+  margin: 0;
 }
+
