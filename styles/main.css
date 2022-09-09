@@ -553,9 +553,18 @@ body .container img {
   height: 100%;
   width: 60px;
   justify-content: center;
+  align-items: top;
   border-radius: 50%;
   z-index: 1;
   opacity: 1;
   margin: 0;
+  padding: -400px;
+  margin-top: -100px;
+  margin-bottom: -500px;
 }
 
+#train3 img{
+  display: flex;
+ 
+
+}
