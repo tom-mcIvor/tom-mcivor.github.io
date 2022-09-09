@@ -565,6 +565,6 @@ body .container img {
 
 #train3 img{
   display: flex;
- 
+  border-radius: 50%;
 
 }
