@@ -1,1 +1,8 @@
 theme: Slate
+
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids:       true
+  toc_levels:     1..3
