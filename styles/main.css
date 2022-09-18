@@ -80,7 +80,10 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   transition: background-color 0.4s;
   height: 80px;
+  
 }
+
+
 
 .navbar ul{
   display: flex;
@@ -232,18 +235,22 @@ img {
   background-repeat: no-repeat;
 }
 .container4 {
-  height: 2500px;
+  
   
   background-image: center;
-  width: 100%;
+  width: 100vw;
   background: url("https://media.npr.org/assets/img/2022/07/12/southern-ring-nebula-2-_custom-60c7d16d9c36f085646be2dad4585892c783952d-s1300-c85.webp");
   background-size: cover;
+  z-index: -1;
+  opacity: .5;
+  background-blend-mode: lighten;
   background-position: center top;
   background-repeat: no-repeat;
+  height: 100%;
+  
 }
 
 .container4 p{
-  font-size: 50px;
   margin: 20px;
 }
 
@@ -253,12 +260,14 @@ img {
 }
 
 .container4 *{
-  color: blueviolet;
+  color: white;
+
 }
 
 .container4 p{
   
   margin: 100px;
+  font-size: 20px;
 }
 
 .container4 h2{
@@ -268,6 +277,19 @@ img {
   margin: 60px;
 }
 
+.move-me{
+  right: 5%;
+  top: 20%;
+  left: 5%;
+  position: absolute;
+  font: white;
+}
+
+body .move-me h3{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+}
 
 
 .navbar .this-one #black-1{
@@ -275,6 +297,19 @@ img {
 }
 .navbar .this-one .change-3{
   color: black;
+}
+
+body .area {
+  position: absolute;
+  background-image: url("https://www.torchgroup.com/wp-content/uploads/2018/04/Image-Emotional-Intelligence-1024x768.jpg");
+  
+background-size: cover;
+
+  left: 10%;
+  top: 8%;
+width: 250px;
+  height: 200px;
+  z-index: 10;
 }
 
 
