@@ -385,11 +385,6 @@ height: 80px;
  
 }
 
-
-
-
-
-
 .middle{
   align-items: center;
   justify-content: center;
@@ -421,14 +416,6 @@ transform: translate(-50%, -50%);
 }
 
 
-
-
-
-
-
-
-
-
 body .container3 p{
 
   margin-top: 100px;
@@ -441,3 +428,13 @@ body .bar {
   text-align: center;
 }
 
+.navbar .this-one .black-5{
+  color: black;
+}
+
+body div div.container-8{
+position: absolute;
+left: 10%;
+top: 200px;
+right: 5%;
+}
