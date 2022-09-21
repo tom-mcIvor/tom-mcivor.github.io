@@ -431,9 +431,20 @@ body .bar {
 .navbar .this-one .black-5{
   color: black;
 }
+.navbar .this-one .black-7{
+  color: black;
+}
 
 body div div.container-8{
 position: absolute;
+left: 10%;
+top: 200px;
+right: 5%;
+}
+
+body .container-11 {
+
+  position: absolute;
 left: 10%;
 top: 200px;
 right: 5%;
