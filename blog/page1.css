@@ -175,23 +175,23 @@ body{
 
 @media screen and (max-width: 300px) {
   .left-part {
-    margin-left: 5px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 800px) {
   .left-part {
-    margin-left: -350px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 1000px) {
   .left-part {
-    margin-left: -500px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 1100px) {
   .navbar.active ul li a{
-    margin-right: 50px;
-    font-size: 30px;
+    margin-right: 0px;
+    font-size: 0px;
 }
 
 .left-part .change{
