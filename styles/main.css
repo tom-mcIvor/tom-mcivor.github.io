@@ -617,3 +617,13 @@ transform: translate(50%, 50%);
 
 }
 
+.navbar .this-one .black-12{
+  color: black;
+}
+
+body div .container-20{
+position: absolute;
+left: 10%;
+top: 200px;
+right: 5%;
+}
