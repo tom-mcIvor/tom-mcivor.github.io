@@ -448,3 +448,8 @@ left: 10%;
 top: 200px;
 right: 5%;
 }
+
+body div .github {
+height: 200px;
+background-color: white;
+}

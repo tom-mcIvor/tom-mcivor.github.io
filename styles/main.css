@@ -610,7 +610,7 @@ top: 90%;
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715");
   position: absolute;
   background-size: cover;
-height: 80pxpx;
+
 width: 50px;
 height: 50px;
 z-index: 100; 
@@ -622,9 +622,39 @@ transform: translate(50%, 50%);
   color: black;
 }
 
-body div .container-20{
+.container-20{
 position: absolute;
 left: 10%;
 top: 200px;
 right: 5%;
 }
+
+
+
+body .container-20 p{
+  font-size: 17px;
+  background-color: rgba(128, 128, 128, 0.151);
+  border-radius: 5%;
+  margin: 10px;
+  padding: 50px;
+  }
+
+  body .container-20 h3{
+    text-align: center;
+  }
+
+
+body .whitecon{
+  right: 20%;
+  top: 90%;
+    position: absolute;
+    background-size: cover;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  z-index: -100; 
+  transform: translate(50%, 25%);
+  opacity: .05;
+  border-radius: 10%;
+  
+  }
