@@ -66,7 +66,7 @@ body{
 }
 
 .navbar{
-  z-index: 2;
+  z-index: 100;
   display: flex;
   position: fixed;
   background-color: rgb(133, 32, 32);
@@ -124,15 +124,14 @@ body{
     width: 100%;
     color: white;
     margin: 0;
-    margin: 0;
-  display: flex;
-  width: 100%;
-  height: 1700px;
-  background: url("https://wallpaperaccess.com/full/3205414.jpg");
-  background-size: cover;  
-  background-repeat: no-repeat;
-  font-family: cursive;
-  text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
+    display: flex;
+    width: 100%;
+    height: 1700px;
+    background: url("https://wallpaperaccess.com/full/3205414.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    font-family: cursive;
+    text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
 
     background-position: cover;
   }
@@ -162,7 +161,7 @@ body{
 
 @media screen and (max-width: 300px) {
   .navbar{
-    font-size: 7pxpx;
+    font-size: 7px;
     height: 30px;
   }
 }
@@ -175,7 +174,7 @@ body{
 
 @media screen and (max-width: 300px) {
   .left-part {
-    margin-left: 0px;
+    margin-left: 5px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -188,11 +187,11 @@ body{
     margin-left: 0px;
   }
 }
-@media screen and (min-width: 1100px) {
+/* @media screen and (min-width: 1100px) {
   .navbar.active ul li a{
-    margin-right: 0px;
-    font-size: 0px;
-}
+    margin-right: 50px;
+    font-size: 22px;
+} */
 
 .left-part .change{
   font-size: 40px;
@@ -236,12 +235,12 @@ body{
   color: black;
 }
 
-@media screen and (max-width: 1600px) and (min-width: 1100px) {
+/* @media screen and (max-width: 1600px) and (min-width: 1100px) {
   
   .left-part {
     margin-left: -130px;
   }
-}
+} */
 
 .container .link-container a{
   color: green;
