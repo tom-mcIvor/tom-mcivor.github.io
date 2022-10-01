@@ -453,3 +453,59 @@ body div .github {
 height: 200px;
 background-color: white;
 }
+
+
+body > div.bootcamp {
+
+  border: 25px solid;
+  border-image-slice: 1;
+  border-image-source: conic-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+  );
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,121,9,1) 35%, rgba(0,212,255,1) 100%);
+
+
+  opacity: .7;
+
+  text-align: center;
+}
+
+body > div.bootcamp p {
+  
+  color: rgb(187, 144, 230) ;
+  text-shadow: 2px 2px rgba(2,0,36,1);
+}
+
+body > div > div.container-8 > .image2{
+  background-image: url('https://www.skipprichard.com/wp-content/uploads/2019/06/bigstock-Problem-Solution-Concept-The-286309309.jpg');
+  margin-left: 20%;
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+}
+
+body > div > div.container-8 > p{
+  background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
+  padding: 10px;
+  opacity: .5;
+}
+
+
+body > div > div.container-8 > .image3{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWoM8lkNGmvQ_hzdRwf9SksygXq3bxvQAkA&usqp=CAU);
+margin-left: 20%;
+height: 400px;
+width: 350px;
+background-size: cover;
+opacity: 0.5;
+}
+
+body > div.container-11 p{
+  background-color: rgba(0, 0, 0, 0.199) ;
+  padding: 10px;
+
+}

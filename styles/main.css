@@ -18,6 +18,7 @@ body{
   font-family: cursive;
   text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
   color: rgba(202, 202, 0, 0.493);
+
 }
 
 .left-part {
@@ -656,5 +657,10 @@ body .whitecon{
   transform: translate(50%, 25%);
   opacity: .05;
   border-radius: 10%;
-  
   }
+
+  body > div.github > a:hover {
+  background-color: white;
+  }
+
+
