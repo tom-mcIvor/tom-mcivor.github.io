@@ -126,7 +126,7 @@ body{
     margin: 0;
     display: flex;
     width: 100%;
-    height: 1700px;
+    height: 2000px;
     background: url("https://wallpaperaccess.com/full/3205414.jpg");
     background-size: cover;  
     background-repeat: no-repeat;
@@ -134,6 +134,18 @@ body{
     text-shadow: .1px .1px rgba(202, 202, 0, 0.526);
 
     background-position: cover;
+  }
+
+ 
+
+  body > div.goals{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 12%;
+    position: absolute ;
+    height: 30%;
+    width: 30%;
+    background-size: cover;
   }
 
   a{
@@ -280,13 +292,13 @@ flex-direction: column;
 .goals{
   transform: translate(-50%, -50%);
   left: 50%;
-  margin-top: 300px;
+  margin-top: 20%;
   flex-direction: column;
   display: flex;
   background-image: top center;
   position: relative;
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 430px;
   opacity: .7;
   
   background-image :url("https://content.thriveglobal.com/wp-content/uploads/2019/07/bigstock-set-goal-make-plan-work-sti-66642022.jpg");
@@ -434,11 +446,13 @@ body .bar {
   color: black;
 }
 
-body div div.container-8{
+body > div.container-8{
+  
 position: absolute;
 left: 10%;
-top: 200px;
+top: 20%;
 right: 5%;
+
 }
 
 body .container-11 {
@@ -479,7 +493,8 @@ body > div.bootcamp p {
   text-shadow: 2px 2px rgba(2,0,36,1);
 }
 
-body > div > div.container-8 > .image2{
+
+body > div.container-8 > .image2{
   background-image: url('https://www.skipprichard.com/wp-content/uploads/2019/06/bigstock-Problem-Solution-Concept-The-286309309.jpg');
   margin-left: 20%;
   height: 200px;
@@ -495,7 +510,7 @@ body > div > div.container-8 > p{
 }
 
 
-body > div > div.container-8 > .image3{
+body > div.container-8 > .image3{
 background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWoM8lkNGmvQ_hzdRwf9SksygXq3bxvQAkA&usqp=CAU);
 margin-left: 20%;
 height: 400px;
@@ -509,3 +524,56 @@ body > div.container-11 p{
   padding: 10px;
 
 }
+
+
+body > div.navbar.active > ul > div.tech{
+
+
+  display: flex;
+  flex-direction: row;
+  border: groove;
+  border-radius: 5px;
+
+  border-color: blueviolet;
+  padding: 5px;
+  word-wrap: normal;
+  margin: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+body > div.navbar.active > ul > div.core {
+
+  display: flex;
+  flex-direction: row;
+  border: groove;
+
+  border-color: rgb(129, 66, 129);
+  border-radius: 5px;
+  padding: 5px;
+  word-wrap: normal;
+  margin: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+
+
+body > div.navbar.active > ul > div.core > li {
+  border-right: solid;
+  color: rgba(0, 0, 0, 0.342);
+  background-color: rgba(134, 54, 134, 0.459);
+}
+
+body > div.navbar.active > ul > div.tech > li {
+  border-right: solid;
+  color: rgba(0, 0, 0, 0.342);
+  background-color: rgba(155, 49, 255, 0.664)
+}
+

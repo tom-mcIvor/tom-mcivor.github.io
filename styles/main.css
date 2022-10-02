@@ -1,17 +1,19 @@
-*{
-  font-family: Cambria;
+
+:root {
+  --font: cursive;
+  --color-text: #828394;
 }
 
-
-
-
+*{
+  font-family: var(font);
+}  
 
 
 body{
   margin: 0;
   display: flex;
   width: 100%;
-  height: 1700px;
+  height: 1900px;
   background: url("https://wallpaperaccess.com/full/3205414.jpg");
   background-size: cover;  
   background-repeat: no-repeat;
@@ -22,7 +24,6 @@ body{
 }
 
 .left-part {
-  
   display: flex;
   flex-direction: row;
   display: flex;
@@ -38,7 +39,7 @@ body{
   display: flex;
   justify-items: center;
   align-items: center;
-  color: white;
+  color: var(--color-text);
   font-family: cursive;
 }
 
@@ -50,9 +51,9 @@ body{
   text-decoration: none;
   justify-content: right;
 }
+
 #change-1 {
-  color: black;
- 
+  color: black; 
 }
 
 .container{
@@ -607,7 +608,7 @@ body .container img {
 }
 body .github a{
 right: 20%;
-top: 90%;
+top: 110%;
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715");
   position: absolute;
   background-size: cover;
@@ -647,7 +648,7 @@ body .container-20 p{
 
 body .whitecon{
   right: 20%;
-  top: 90%;
+  top: 110%;
     position: absolute;
     background-size: cover;
   background-color: white;
@@ -679,8 +680,9 @@ body .whitecon{
   .ball {
     width: 10px;
     height: 10px;
-    margin: 40px auto;
+    margin: 10px auto;
     border-radius: 50px;
+    opacity: .5;
   }
   
   .ball:nth-child(1) {
@@ -805,4 +807,114 @@ body .whitecon{
   }
 
 
+  body > marquee {
+    position: absolute;
+    height: 100vw;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+  }
+
+
+  body > div.navbar.active > ul > div.tech-title > div{
+
+
+    display: flex;
+    flex-direction: row;
+    border: groove;
+    border-radius: 5px;
+
+    border-color: blueviolet;
+    padding: 5px;
+    word-wrap: normal;
+    margin: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  body > div.navbar.active > ul > div.core-title > div{
+
+    display: flex;
+    flex-direction: row;
+    border: groove;
+
+    border-color: rgb(129, 66, 129);
+    border-radius: 5px;
+    padding: 5px;
+    word-wrap: normal;
+    margin: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+
+  }
+
+
+  body > div.navbar.active > ul > div.core-title > div  > li {
+    border-right: solid;
+    border-bottom: solid;
+
+    color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(134, 54, 134, 0.459);
+
+    padding-top: 2px;
+    padding-bottom: 2px
+  }
+
+  body > div.navbar.active > ul > div.tech-title > div  > li {
+    border-right: solid;
+    border-bottom: solid;
+    color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(155, 49, 255, 0.664);
+    padding-top: 2px;
+    padding-bottom: 2px
+
+  }
+
+ 
+  body > div.navbar.active > ul > div.tech-title {
+
+    display: flex;
+
+    flex-direction: column;
+
+    
+  }
+
   
+  body > div.navbar.active > ul > div.core-title {
+
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+
+  body > div.navbar.active > ul > div.tech-title > p {
+color: blueviolet;
+margin-left: 20%;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px black;
+
+    letter-spacing: 10px;
+  }
+
+  body > div.navbar.active > ul > div.core-title > p {
+    color: purple;
+margin-left: 20%;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    font-size: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px black;
+
+    letter-spacing: 10px;
+  }
