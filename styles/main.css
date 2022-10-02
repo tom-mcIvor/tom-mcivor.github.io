@@ -912,7 +912,7 @@ body .whitecon{
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px groove #91C9FF;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -952,15 +952,19 @@ svg {
 
 
 .hello {
-
-color: white;
-
+  display: flex;
+  font-size: 30px;
+    justify-content: center;
+    margin-top: 3%;
+  color: white;
+  font-family: cursive;
 }
 
 #change-1 {
-display: flex;
-
-justify-content: center;
-margin-top: 3%;
-  color: black ;
+  display: flex;
+  font-size: 30px ;
+  justify-content: center;
+  margin-top: 3%;
+    color: black ;
+    font-family: cursive;
 }
