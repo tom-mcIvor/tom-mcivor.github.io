@@ -567,16 +567,105 @@ body > div.navbar.active > ul > div.core {
 
 body > div.navbar.active > ul > div.core > li {
   border-right: solid;
+  border-bottom: solid;
+
   color: rgba(0, 0, 0, 0.342);
   background-color: rgba(134, 54, 134, 0.459);
+
+  padding-top: 2px;
+  padding-bottom: 2px
 }
 
 body > div.navbar.active > ul > div.tech > li {
   border-right: solid;
+  border-bottom: solid;
   color: rgba(0, 0, 0, 0.342);
-  background-color: rgba(155, 49, 255, 0.664)
+  background-color: rgba(155, 49, 255, 0.664);
+  padding-top: 2px;
+  padding-bottom: 2px
+
 }
 
 
+
+.container50 {
+  width: 180px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: white;
+  background-color: grey;
+  border-radius: 5px;
+  
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+}
+
+.btn {
+  
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  margin-top: -300px;
+  margin-left: -7px;
+  top: 10%;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: rgb(0, 92, 92);
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn :before {
+  
+ 
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+
+.hello {
+  display: flex;
+font-size: 30px;
+  justify-content: center;
+  margin-top: 3%;
+color: white;
+font-family: cursive;
+}
+
+#change-1 {
+display: flex;
+font-size: 30px ;
+justify-content: center;
+margin-top: 3%;
+  color: black ;
+  font-family: cursive;
+}
 
 
