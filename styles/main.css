@@ -816,7 +816,7 @@ body .whitecon{
   }
 
 
-  body > div.navbar.active > ul > div.tech-title > div{
+  body > div.navbar.active > ul > div.tech{
 
 
     display: flex;
@@ -835,7 +835,7 @@ body .whitecon{
 
   }
 
-  body > div.navbar.active > ul > div.core-title > div{
+  body > div.navbar.active > ul > div.core {
 
     display: flex;
     flex-direction: row;
@@ -855,7 +855,7 @@ body .whitecon{
   }
 
 
-  body > div.navbar.active > ul > div.core-title > div  > li {
+  body > div.navbar.active > ul > div.core > li {
     border-right: solid;
     border-bottom: solid;
 
@@ -866,7 +866,7 @@ body .whitecon{
     padding-bottom: 2px
   }
 
-  body > div.navbar.active > ul > div.tech-title > div  > li {
+  body > div.navbar.active > ul > div.tech > li {
     border-right: solid;
     border-bottom: solid;
     color: rgba(0, 0, 0, 0.342);
@@ -877,44 +877,3 @@ body .whitecon{
   }
 
  
-  body > div.navbar.active > ul > div.tech-title {
-
-    display: flex;
-
-    flex-direction: column;
-
-    
-  }
-
-  
-  body > div.navbar.active > ul > div.core-title {
-
-    display: flex;
-    flex-direction: column;
-
-    
-  }
-
-  body > div.navbar.active > ul > div.tech-title > p {
-color: blueviolet;
-margin-left: 20%;
-    margin-bottom: -1px;
-    margin-top: 0px;
-    font-size: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 2px 2px black;
-
-    letter-spacing: 10px;
-  }
-
-  body > div.navbar.active > ul > div.core-title > p {
-    color: purple;
-margin-left: 20%;
-    margin-bottom: -1px;
-    margin-top: 0px;
-    font-size: 13px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 2px 2px black;
-
-    letter-spacing: 10px;
-  }
