@@ -669,3 +669,261 @@ margin-top: 3%;
 }
 
 
+.hello {
+  display: flex;
+  font-size: 30px;
+    justify-content: center;
+    margin-top: 3%;
+  color: white;
+  font-family: cursive;
+}
+
+#change-1 {
+  display: flex;
+  font-size: 30px ;
+  justify-content: center;
+  margin-top: 3%;
+    color: black ;
+    font-family: cursive;
+}
+
+
+body > div.navbar.active > nav
+
+
+
+body > div.navbar.active > nav{
+  margin:0 auto;
+  background-color: rgb(133, 32, 32);
+
+  justify-content: center;
+  height:40px;
+
+  display: flex;
+}
+
+body > div.navbar.active > nav > ul {
+  margin:0;padding:0;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+}
+
+body > div.navbar.active > nav > ul  li {
+  position:relative;
+  margin:0 20px 0 0;
+  float: left;
+  display:inline-block;
+}
+
+
+body > div.navbar.active > nav > ul > li:nth-child(1)  a:after { content: 'Tech 🤔 »'; }
+
+body > div.navbar.active > nav > ul > li:nth-child(1)  a:only-child:after { content: ''; }
+
+body > div.navbar.active > nav > ul > li:nth-child(2)  a:after { content: 'Core ❤️ »'; }
+
+body > div.navbar.active > nav > ul > li:nth-child(2)  a:only-child:after { content: ''; }
+
+
+body > div.navbar.active > nav > ul li a {
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+body > div.navbar.active > nav > ul li a:hover {
+  opacity:0.5;
+}
+
+body > div.navbar.active > nav > ul li ul {
+
+  
+  display:none;
+  position:absolute;
+  left:0;
+  background: blueviolet;
+  float:left;
+}
+
+body > div.navbar.active > nav > ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+body > div.navbar.active > nav > ul li:hover ul {
+  display:block;
+}
+
+body > div.navbar.active > nav > ul > li:nth-child(1){
+
+  border-radius: 5px;
+  background-color:  blueviolet;
+  font-size: 13px;
+  
+}
+body > div.navbar.active > nav > ul > li:nth-child(2){
+
+  background-color:  rgb(129, 66, 129);
+  font-size: 13px;
+  border-radius: 5px;
+  
+}
+
+body > div.navbar.active > nav > ul > li:nth-child(2) > ul {
+
+  background-color:  rgb(129, 66, 129);
+
+  float: left;
+
+  text-align: left ;
+}
+
+
+
+body > div.navbar.active > div {
+  margin-left: 10px, auto;
+}
+
+body > div.navbar.active > nav {
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+body > div.navbar.active > nav > ul{
+
+  display: flex ;
+  flex-direction: row;
+}
+
+body > div.navbar.active > nav > ul > li:nth-child(2){
+  justify-content: left;
+}
+
+
+
+@media screen and (max-width: 1800px) {
+  body > div.navbar.active{
+    font-size: smaller;
+   
+  }
+}
+@media screen and (max-width: 1650px) {
+  body > div.navbar.active > div > a.change > div{
+    width: 100px;
+height: 50px;
+
+  }
+  body > div.navbar.active > div > a.change > div > div{
+    width: 100px;
+    height: 50px;
+
+  }
+
+  body > div.navbar.active > div > a.change > div > div > button{
+    width: 100px;
+    height: 50px;
+
+  }
+
+ 
+
+
+
+  body > div.navbar.active > div > a.change > div > div > button > svg{
+    width: 100px;
+height: 50px;
+  }
+
+  body > div.navbar.active > div > a.change > div > div{
+    margin-bottom: 10px;
+  }
+
+  body > div.navbar.active > div {
+    margin-left: 5px auto;
+  }
+}
+
+
+body > div.navbar.active > div > a.change > div > div{
+ border-radius: 5%;
+}
+
+body > div.navbar.active > div > a.change > div{
+  border-radius: 5%;
+
+}
+body > div.navbar.active > div > a.change > div > div{
+  border-radius: 5%;
+
+}
+
+body > div.navbar.active > div > a.change > div > div > button{
+  border-radius: 5%;
+  background-color: #828394;
+}
+
+@media screen and (max-width: 1800px) { 
+
+  body > div.navbar.active > nav{
+    margin-left: 100px;
+  }
+
+}
+
+@media screen and (max-width: 1800px) { 
+
+ 
+  body > div.navbar.active > nav > ul  li > a:after { content: ' »' !important;}
+  
+  body > div.navbar.active > nav > ul  li > a:only-child:after { content: '' !important; }
+
+}
+
+
+@media screen and (max-width: 1610px) { 
+
+  body > div.navbar.active > nav {
+    margin-left: 100px;
+  }
+  body > div.navbar.active > div{
+
+    margin-left: 100px !important;
+  }  
+
+
+}
+@media screen and (max-width: 1300px) { 
+
+  body > div.navbar.active > nav {
+    margin-left: 50px;
+  }
+  body > div.navbar.active > div{
+
+    margin-left: 3px !important;
+  }  
+
+ 
+}
+@media screen and (max-width: 700px) { 
+
+  body > div.navbar.active > ul {
+
+    width: 0px;
+  }
+
+  body > div.navbar.active > nav {
+    place-items: center;
+  }
+
+  body > div.navbar.active > nav > ul{
+    height: 30px;
+
+  }
+
+  body > div.navbar.active > nav > ul > li:nth-child(2) > a {
+    height: 30px;
+  }
+}
