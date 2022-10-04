@@ -933,3 +933,24 @@ body > div.navbar.active > div > a.change > div > div > button{
     height: 30px;
   }
 }
+
+body > div.container-8 > ul > div {
+
+  background-color: rgb(26, 26, 26);
+  width: 150vw;
+  height: 150;
+  margin-bottom: -200px;
+  margin-left: -200px;
+  color: white !important;
+}
+
+body > div.container-8 > ul > div > ul > ul > h3 {
+  margin-left: 200px;
+}
+
+
+body > div.container-8 > ul > div > ul > ul > div:nth-child(18) {
+  padding-bottom: 100px;
+}
+
+
