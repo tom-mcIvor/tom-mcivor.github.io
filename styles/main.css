@@ -1213,3 +1213,54 @@ body > div.navbar.active > div > a.change > div > div > button{
 
 
 
+body > div.container-20 > div {
+
+  display: grid;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body > div.container-20 > div > h3 {
+  margin-left: 200px;
+  text-align:  left;
+  width: 80vw;
+  color: rgb(183, 211, 253);
+
+}
+
+body > div.container-20 > div {
+  margin-left: -200px;
+  padding-left: 50px;
+  display: grid;
+  width: 150VW;
+  background-image: linear-gradient(rgba(128, 128, 128, 0.712), rgba(53, 53, 53, 0.685),  rgba(53, 53, 53, 0.685));
+  color: white;
+  overflow:hidden;
+
+}
+
+body > div.container-20 > div > ul > p {
+
+margin-left: 200px;
+padding: 0;
+width: 70vw;
+ 
+}
+
+
+
+
+
+
+body > div.container-20 > div > ul:nth-child(2) > li:nth-child(2){
+  margin-left: 300px
+}
+
+body > div.container-20 > div > ul:nth-child(2) > li:nth-child(3){
+  margin-left: 300px
+}
+
+body > div.container-20 > div > ul:nth-child(2) > li:nth-child(4){
+  margin-left: 300px
+}
