@@ -1,8 +1,6 @@
-vist https://tom-mcivor.github.io to see app
 
 # My learning progress
 
-             tom-mcivor.github.io 
 
 ## HTML
 
