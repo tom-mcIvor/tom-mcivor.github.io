@@ -84,11 +84,8 @@ img {
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   transition: background-color 0.4s;
   height: 80px;
-  z-index: 1000;
-  
+  z-index: 1000; 
 }
-
-
 
 .navbar ul{
   display: flex;
@@ -193,10 +190,6 @@ img {
     margin-left: 0px;
   }
 }
-/* @media screen and (min-width: 1100px) {
-  .navbar.active ul li a{
-    
-} */
 
 .left-part .change{
   font-size: 40px;
@@ -230,7 +223,6 @@ img {
 
 .container3 {
   height: 2500px;
-  
   background-image: center;
   width: 100%;
   background: url("https://live-production.wcms.abc-cdn.net.au/69c0db8671502e7963af2f375a57486f?impolicy=wcms_crop_resize&cropH=2193&cropW=3899&xPos=0&yPos=1178&width=862&height=485%22");
@@ -238,9 +230,7 @@ img {
   background-position: center top;
   background-repeat: no-repeat;
 }
-.container4 {
-  
-  
+.container4 { 
   background-image: center;
   width: 100vw;
   background: url("https://media.npr.org/assets/img/2022/07/12/southern-ring-nebula-2-_custom-60c7d16d9c36f085646be2dad4585892c783952d-s1300-c85.webp");
@@ -251,7 +241,6 @@ img {
   background-position: center top;
   background-repeat: no-repeat;
   height: 100%;
-  
 }
 
 .container4 p{
@@ -265,11 +254,9 @@ img {
 
 .container4 *{
   color: white;
-
 }
 
 .container4 p{
-  
   margin: 100px;
   font-size: 20px;
 }
@@ -306,12 +293,10 @@ body .move-me h3{
 body .area {
   position: absolute;
   background-image: url("https://www.torchgroup.com/wp-content/uploads/2018/04/Image-Emotional-Intelligence-1024x768.jpg");
-  
-background-size: cover;
-
+  background-size: cover;
   left: 10%;
   top: 8%;
-width: 250px;
+  width: 250px;
   height: 200px;
   z-index: 10;
 }
@@ -328,7 +313,6 @@ width: 250px;
   margin-right: 50px;
   justify-items: center;
   margin-top: 30px;
-  
 }
 
 .container3 text{
@@ -347,7 +331,6 @@ width: 250px;
   color: white;
   border-radius: 30px;
   background-color: rgba(0,0,0,.5);
-
 }
 
 .container3 .inside-container{
@@ -371,7 +354,6 @@ width: 250px;
 
  
 @media screen and (max-width: 1600px) and (min-width: 1100px) {
-  
   .left-part {
     margin-left: -130px;
   }
@@ -387,11 +369,9 @@ width: 250px;
   text-decoration: none;
 }
 
-
 footer {
   font-size: smaller;
 }
-
 
 /* Animation property */
 body .container span button{
@@ -430,13 +410,11 @@ span{
   align-items: center;
 }
 
-
 body > div.container > span > button {
   height: 4em;
   width: 7em;
   background-color: rgba(0, 0, 0, 0);
   border: none;
-  
   border-radius: 0 0 0.2em 0.2em;
   color: rgb(255, 236, 131);
   font-family: Helvetica, Arial, Sans-serif;
@@ -449,22 +427,18 @@ a, a:hover, a:focus, a:active {
   color: inherit;
   }
 
-  #date{
-    display: flex;
-    margin-top: 0%;
-    justify-content: right;
-    margin-right: 6%;
+#date{
+  display: flex;
+  margin-top: 0%;
+  justify-content: right;
+  margin-right: 6%;
+}
 
-  
-  }
-
-  body .container3 #white{
-
-    margin-top: 150px;
+body .container3 #white {
+  margin-top: 150px;
   color: white;
   margin-bottom: -150px;
-  
-  }
+}
 
   @media screen and (max-width: 500px) {
     body .container3 span div p{
@@ -534,31 +508,29 @@ a, a:hover, a:focus, a:active {
 
 body .container .box{
   top: 40%;
-  right: 20%;
-position: absolute;
-  font-family: cursive !important;
-  transform: translate(50%, 50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color:  #4CAF50;
-  border: none;
-  color: white;
+    right: 20%;
+    position: absolute;
+    font-family: cursive !important;
+    transform: translate(50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 15%;
     opacity: .7;
-    
 }
 
 body .container .box:hover {
   background-color:#3e8e41;
   color: black;
-  
 }
 
 body .container img {
@@ -571,15 +543,14 @@ body .container img {
 
 #train {
   position: absolute;
-  display: flex;
-  height: 80px;
-  color: pink;
- z-index: 10;
- font-size: 50px;
+    display: flex;
+    height: 80px;
+    color: pink;
+    z-index: 10;
+    font-size: 50px;
 }
 
 #train2 {
-  
   display: flex;
   height: 100px;
   color: orange;
@@ -608,31 +579,27 @@ body .container img {
 
 }
 body .github a{
-right: 20%;
-top: 110%;
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715");
+  right: 20%;
+  top: 110%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715");
   position: absolute;
   background-size: cover;
-
-width: 50px;
-height: 50px;
-z-index: 100; 
-transform: translate(50%, 50%);
-
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  transform: translate(50%, 50%);
 }
 
 .navbar .this-one .black-12{
   color: black;
 }
 
-.container-20{
-position: absolute;
-left: 10%;
-top: 200px;
-right: 5%;
+.container-20 {
+  position: absolute;
+  left: 10%;
+  top: 200px;
+  right: 5%;
 }
-
-
 
 body .container-20 p{
   font-size: 17px;
@@ -646,27 +613,23 @@ body .container-20 p{
     text-align: center;
   }
 
-
 body .whitecon{
   right: 20%;
-  top: 110%;
+    top: 110%;
     position: absolute;
     background-size: cover;
-  background-color: white;
-  width: 70px;
-  height: 70px;
-  z-index: -100; 
-  transform: translate(50%, 25%);
-  opacity: .05;
-  border-radius: 10%;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    z-index: -100;
+    transform: translate(50%, 25%);
+    opacity: .05;
+    border-radius: 10%;
   }
 
   body > div.github > a:hover {
   background-color: white;
   }
-
-
-
 
   .container20 {
     position: absolute;
@@ -807,7 +770,6 @@ body .whitecon{
     }
   }
 
-
   body > marquee {
     position: absolute;
     height: 100%;
@@ -815,7 +777,6 @@ body .whitecon{
     z-index: -1;
     opacity: .7;
   }
-
 
   body > div.navbar.active > ul > div.tech{
 
@@ -837,11 +798,9 @@ body .whitecon{
   }
 
   body > div.navbar.active > ul > div.core {
-
     display: flex;
     flex-direction: row;
     border: groove;
-
     border-color: rgb(129, 66, 129);
     border-radius: 5px;
     padding: 5px;
@@ -850,19 +809,13 @@ body .whitecon{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
-
-
   }
-
 
   body > div.navbar.active > ul > div.core > li {
     border-right: solid;
     border-bottom: solid;
-
     color: rgba(0, 0, 0, 0.342);
     background-color: rgba(134, 54, 134, 0.459);
-
     padding-top: 2px;
     padding-bottom: 2px
   }
@@ -873,22 +826,8 @@ body .whitecon{
     color: rgba(0, 0, 0, 0.342);
     background-color: rgba(155, 49, 255, 0.664);
     padding-top: 2px;
-    padding-bottom: 2px
-
+    padding-bottom: 2px;
   }
-
- 
-
-
-
-
-
-  
-
-
-
-
-
 
 .container50 {
   width: 180px;
@@ -898,7 +837,6 @@ body .whitecon{
   align-items: center;
   font: white;
   border-radius: 5px;
-  
 }
 
 .center1 {
@@ -907,7 +845,6 @@ body .whitecon{
 }
 
 .btn {
-  
   width: 180px;
   height: 60px;
   cursor: pointer;
@@ -939,8 +876,6 @@ svg {
 }
 
 .btn :before {
-  
- 
   background: linear-gradient(
     120deg,
     transparent,
@@ -950,12 +885,11 @@ svg {
   transition: all 650ms;
 }
 
-
 .hello {
   display: flex;
   font-size: 30px;
-    justify-content: center;
-    margin-top: 3%;
+  justify-content: center;
+  margin-top: 3%;
   color: white;
   font-family: cursive;
 }
@@ -969,18 +903,11 @@ svg {
     font-family: cursive;
 }
 
-
-body > div.navbar.active > nav
-
-
-
 body > div.navbar.active > nav{
   margin:0 auto;
   background-color: rgb(133, 32, 32);
-
   justify-content: center;
   height:40px;
-
   display: flex;
 }
 
@@ -998,7 +925,6 @@ body > div.navbar.active > nav > ul  li {
   display:inline-block;
 }
 
-
 body > div.navbar.active > nav > ul > li:nth-child(1)  a:after { content: 'Tech 🤔 »'; }
 
 body > div.navbar.active > nav > ul > li:nth-child(1)  a:only-child:after { content: ''; }
@@ -1006,7 +932,6 @@ body > div.navbar.active > nav > ul > li:nth-child(1)  a:only-child:after { cont
 body > div.navbar.active > nav > ul > li:nth-child(2)  a:after { content: 'Core ❤️ »'; }
 
 body > div.navbar.active > nav > ul > li:nth-child(2)  a:only-child:after { content: ''; }
-
 
 body > div.navbar.active > nav > ul li a {
   padding:20px;
@@ -1020,8 +945,6 @@ body > div.navbar.active > nav > ul li a:hover {
 }
 
 body > div.navbar.active > nav > ul li ul {
-
-  
   display:none;
   position:absolute;
   left:0;
@@ -1039,30 +962,22 @@ body > div.navbar.active > nav > ul li:hover ul {
 }
 
 body > div.navbar.active > nav > ul > li:nth-child(1){
-
   border-radius: 5px;
   background-color:  blueviolet;
   font-size: 13px;
-  
 }
-body > div.navbar.active > nav > ul > li:nth-child(2){
 
+body > div.navbar.active > nav > ul > li:nth-child(2){
   background-color:  rgb(129, 66, 129);
   font-size: 13px;
   border-radius: 5px;
-  
 }
 
 body > div.navbar.active > nav > ul > li:nth-child(2) > ul {
-
   background-color:  rgb(129, 66, 129);
-
   float: left;
-
   text-align: left ;
 }
-
-
 
 body > div.navbar.active > div {
   margin-left: 10px, auto;
@@ -1075,7 +990,6 @@ body > div.navbar.active > nav {
 }
 
 body > div.navbar.active > nav > ul{
-
   display: flex ;
   flex-direction: row;
 }
@@ -1084,8 +998,6 @@ body > div.navbar.active > nav > ul > li:nth-child(2){
   justify-content: left;
 }
 
-
-
 @media screen and (max-width: 1800px) {
   body > div.navbar.active{
     font-size: smaller;
@@ -1093,31 +1005,25 @@ body > div.navbar.active > nav > ul > li:nth-child(2){
   }
 }
 @media screen and (max-width: 1650px) {
-  body > div.navbar.active > div > a.change > div{
-    width: 100px;
-height: 50px;
-
+  body>div.navbar.active>div>a.change>div {
+      width: 100px;
+      height: 50px;
   }
+
   body > div.navbar.active > div > a.change > div > div{
     width: 100px;
     height: 50px;
-
   }
 
   body > div.navbar.active > div > a.change > div > div > button{
     width: 100px;
     height: 50px;
-
   }
 
- 
-
-
-
-  body > div.navbar.active > div > a.change > div > div > button > svg{
-    width: 100px;
-height: 50px;
-  }
+    body>div.navbar.active>div>a.change>div>div>button>svg {
+      width: 100px;
+      height: 50px;
+    }
 
   body > div.navbar.active > div > a.change > div > div{
     margin-bottom: 10px;
@@ -1127,7 +1033,6 @@ height: 50px;
     margin-left: 5px auto;
   }
 }
-
 
 body > div.navbar.active > div > a.change > div > div{
  border-radius: 5%;
@@ -1156,68 +1061,47 @@ body > div.navbar.active > div > a.change > div > div > button{
 }
 
 @media screen and (max-width: 1800px) { 
-
- 
   body > div.navbar.active > nav > ul  li > a:after { content: ' »' !important;}
-  
   body > div.navbar.active > nav > ul  li > a:only-child:after { content: '' !important; }
-
 }
 
-
 @media screen and (max-width: 1610px) { 
-
   body > div.navbar.active > nav {
     margin-left: 100px;
   }
   body > div.navbar.active > div{
-
     margin-left: 100px !important;
   }  
-
-
 }
-@media screen and (max-width: 1300px) { 
 
+@media screen and (max-width: 1300px) { 
   body > div.navbar.active > nav {
     margin-left: 50px;
   }
   body > div.navbar.active > div{
-
     margin-left: 3px !important;
   }  
-
- 
 }
+
 @media screen and (max-width: 700px) { 
-
   body > div.navbar.active > ul {
-
     width: 0px;
   }
-
   body > div.navbar.active > nav {
     place-items: center;
   }
-
   body > div.navbar.active > nav > ul{
     height: 30px;
-
   }
-
   body > div.navbar.active > nav > ul > li:nth-child(2) > a {
     height: 30px;
   }
 }
 
-
-
 body > div.container-20 > div {
-
   display: grid;
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 body > div.container-20 > div > h3 {
@@ -1225,7 +1109,6 @@ body > div.container-20 > div > h3 {
   text-align:  left;
   width: 80vw;
   color: rgb(183, 211, 253);
-
 }
 
 body > div.container-20 > div {
@@ -1236,21 +1119,13 @@ body > div.container-20 > div {
   background-image: linear-gradient(rgba(128, 128, 128, 0.712), rgba(53, 53, 53, 0.685),  rgba(53, 53, 53, 0.685));
   color: white;
   overflow:hidden;
-
 }
 
 body > div.container-20 > div > ul > p {
-
 margin-left: 200px;
 padding: 0;
 width: 70vw;
- 
 }
-
-
-
-
-
 
 body > div.container-20 > div > ul:nth-child(2) > li:nth-child(2){
   margin-left: 300px
