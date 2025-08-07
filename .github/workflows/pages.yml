@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: 66c64054a79926b1ff71a398bb073d28ba0fa4ca
+          ref: e5887e8
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
