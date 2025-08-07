@@ -1,8 +1,9 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the svg-fixes branch
   push:
-    branches: ["main"]
+    branches: ["svg-fixes"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -20,9 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: e5887e82c7064cf5827e1f6879db574a814bc034
+        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
